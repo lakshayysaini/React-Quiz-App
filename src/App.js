@@ -3,7 +3,7 @@ import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 
 import End from "./components/End";
-import Question from "./components/Question";
+import Question from "./components/Questions";
 import Start from "./components/Start";
 import quizData from "./data/quiz.json";
 
