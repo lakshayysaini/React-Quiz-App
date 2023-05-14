@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { startQuiz } from "../redux/action/quizAction";
 const Start = () => {
   const dispatch = useDispatch();
-  // const {time} = useSelector(state => state.quizReducer)
   const [minute, setMinute] = useState(1);
   const [second, setSecond] = useState(0);
   const [time, setTime] = useState(60);
@@ -32,7 +31,7 @@ const Start = () => {
         <div>
           <h1>Start the Quiz</h1>
           <p>Good luck!</p>
-          <p>Time:&nbsp;&nbsp;{time}sec</p>
+          <p>Time:&nbsp;&nbsp; {time}sec</p>
           <section>
             <label htmlFor="">
               <input
