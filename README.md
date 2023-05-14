@@ -1,4 +1,4 @@
-Hi there
+Hi there,
 This is a basic react quiz app in which I used redux to dispatch the states required and reactJS to develop the UI of the webapp
 I'll be focussing on to make this mobile responsive.
 To use this you can fork this repo or even download the code
