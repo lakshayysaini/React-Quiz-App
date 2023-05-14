@@ -55,6 +55,7 @@ const Start = () => {
           <button className="startButton" onClick={handleQuizStart}>
             START
           </button>
+          <p>Made by Lakshayyy</p>
         </div>
       </div>
     </div>
